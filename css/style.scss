@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slider{
+   
+    p{
+        z-index: 20;
+        white-space: nowrap;
+        font-size: 68px;
+        line-height: 78px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        letter-spacing: 5px;
+        font-family: Marcellus;
+        text-transform: uppercase;
+      
+       
+       
+    }
+    img{
+        width: 100%;
+        
+    }
+    width: 100%;
+    margin: 20px auto;
+   
+    position: relative;
+       
+    .next,.prev{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: oldlace;
+       
+    }
+    .next{
+        right: 20px;
+    }
+    .prev{
+        left: 20px;
+    }
+}
+
+
+
+header {
+    .head1 {
+        h6 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            line-height: 1.55em;
+            font-style: normal;
+            font-weight: 300;
+            text-transform: none;
+            margin: 20px 400px;
+            color: #262626;
+
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            color: #262626;
+            font-family: 'Marcellus', serif;
+            font-weight: 400;
+            font-size: 45px;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+    }
+
+    .coffee-item {
+        padding: 45px 0;
+    }
+
+    p {
+        font-family: open sans, sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #656565;
+    }
+
+    span {
+        text-align: center;
+    }
+}
+
+.tch {
+    padding: 100px 0;
+    background: url(../photo/new-new-h1-bacground-img-3.jpg);
+    object-fit: cover;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .head2 {
+        h6 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            line-height: 1.55em;
+            font-style: normal;
+            font-weight: 300;
+            text-transform: none;
+            margin: 50px 400px;
+            color: #262626;
+
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            padding-top: 15px;
+        }
+
+        h2 {
+            color: #262626;
+            font-family: 'Marcellus', serif;
+            font-weight: 400;
+            font-size: 45px;
+            letter-spacing: 2px;
+            margin-top: 20px;
+        }
+    }
+}
+
+.images {
+    p {
+        padding: 10px 0;
+    }
+
+    img {
+        margin: 40px 0;
+    }
+
+    p {
+        font-family: open sans, sans-serif;
+        font-size: 15px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #656565;
+    }
+}
+
+.images {
+
+    a,
+    span {
+        &:hover {
+            color: #be9c79;
+        }
+    }
+}
+
+.bckimage2 {
+    background: url(../photo/home-1-slider-image-1.jpg);
+    height: 90vh;
+    background-attachment: fixed;
+
+    img {
+        z-index: 1;
+    }
+}
+
+.numbers {
+    .numbertxt {
+        p {
+            font-family: open sans, sans-serif;
+            font-size: 15px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #656565;
+        }
+
+        h5 {
+            color: #262626;
+            font-family: Marcellus, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            margin-top: 31px;
+
+        }
+
+
+
+        padding: 100px 0;
+
+        span {
+            vertical-align: middle;
+            font-size: 55px;
+            font-family: Marcellus, sans-serif;
+            color: #be9c79;
+            letter-spacing: .05em;
+            line-height: .9em;
+            overflow: hidden;
+        }
+    }
+}
+
+.shop {
+    h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        line-height: 1.55em;
+        font-style: normal;
+        font-weight: 300;
+        text-transform: none;
+        margin: 50px 400px;
+        color: #262626;
+
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    h2 {
+        color: #262626;
+        font-family: 'Marcellus', serif;
+        font-weight: 400;
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+}
+
+.onlineshop {
+    .roasted {
+        a {
+            text-decoration: none;
+            color: black;
+            font-family: Marcellus, sans-serif;
+            font-size: 20px;
+        }
+
+        span {
+            font-family: open sans, sans-serif;
+            color: #656565;
+        }
+    }
+
+    padding-bottom: 120px;
+    background: url(../photo/h1-bacground-img-1.jpg);
+    object-position: center;
+
+    .shop {
+        padding-top: 120px;
+    }
+}
+
+.gallery {
+
+    h6 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        line-height: 1.55em;
+        font-style: normal;
+        font-weight: 300;
+        text-transform: none;
+        margin: 50px 400px;
+        color: #262626;
+
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        padding-top: 15px;
+    }
+
+    h2 {
+        color: #262626;
+        font-family: 'Marcellus', serif;
+        font-weight: 400;
+        font-size: 45px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+}
+
+.photos {
+    img {
+        // height:100%;
+        object-fit: cover;
+        vertical-align: middle;
+    }
+
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #0000008f;
+    }
+
+
+}
+
+.allboxs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+
+}
+
+// &:hover{
+//     color: white;
+
+//     opacity: 1;
+
+// }
+.emblem {
+    margin: 80px 0;
+}
+
+.contact {
+    padding: 100px 0;
+
+    button {
+
+        color: #ffffff;
+        background-color: #be9c79;
+        border: 1px solid transparent;
+        font-family: inherit;
+        position: relative;
+        width: auto;
+        outline: 0;
+        font-size: 12px;
+        line-height: 1.15em;
+        letter-spacing: .15em;
+        font-weight: 600;
+        transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+        padding: 19px 35px;
+        cursor: pointer;
+
+        &:hover {
+            background: black;
+        }
+    }
+
+    h5 {
+        font-family: open sans, sans-serif;
+        font-size: 20px;
+        line-height: 26px;
+        color: #262626;
+        font-family: Marcellus, sans-serif;
+        font-weight: 400;
+    }
+
+    background: url(../photo/p2-background-img-1.jpg);
+}
+
+.footer1 {
+    padding-top: 100px;
+    background: url(../photo/footer-top-img-1.jpg);
+    height: 110vh;
+
+    .logo {
+        i{
+            padding: 19px 23px;
+            transition: border-color .2s ease-in-out;
+            border: oldlace;
+            color: #404040;
+    
+}
+        }
+        input{
+      color: white;      
+    margin: 0 0 20px;
+    padding: 19px 23px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: inherit;
+    color: #656565;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    outline: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box
+        }
+        z-index: 10;
+        color: white;
+
+        p {
+            margin: 0 400px;
+            margin-top: 30px;
+        }
+
+        h5 {
+            margin-top: 40px;
+            font-family: Marcellus, sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
+
+
+
+        a {
+            text-decoration: none;
+            color: white;
+         font-family: open sans, sans-serif;
+            font-size: 15px;
+            line-height: 26px;
+            font-weight: 300;
+            &:hover{
+               color: #be9c79 ;
+               
+            }
+        }
+    }
+    .footer2{
+        background: #121212;
+        padding: 50px;
+        color: white;
+        .ftall{
+            .footer-menu{
+                ul{
+                    li{
+                        
+                        a{
+                            font-family: Marcellus, sans-serif;
+                            color: white;
+                            margin: 0 15px;
+                            text-decoration: none;
+                            &:hover{
+                                color: #be9c79;
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-text{
+                a{
+                    text-decoration: none !important;
+                    color: white;
+                }
+            }
+            .social-icons{
+                i{
+                    margin: 0 15px;
+                    &:hover{
+                        color: #be9c79;
+                    }
+
+                }
+            }
+        }
+    }
+
